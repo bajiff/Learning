@@ -1,0 +1,30 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.textCenter{
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.form{
+
+    color: white;
+    justify-content: center;
+    padding: 50px;
+    margin: 50px;
+}
+.formUl{
+    padding: 50px 50px;
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+.formLabel {
+    display: block;
+}
