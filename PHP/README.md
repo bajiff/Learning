@@ -1,1 +1,0 @@
-Untuk repo PHP ini saya menggunakan PHP Versi php-8.3.10-nts-Win32-vs16-x64 jadi harap menyesuaikan dengan versi PHP kalian Okeyyy
