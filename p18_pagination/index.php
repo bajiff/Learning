@@ -5,6 +5,7 @@ if(!isset($_SESSION["login"])) {
     exit;
 }
 require("functions.php");
+// Pagination
 $db_cs = query("SELECT * FROM cahaya_surga ORDER BY id DESC");
 
 if (isset($_POST["cari"])) {
