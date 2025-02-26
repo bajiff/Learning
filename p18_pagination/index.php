@@ -68,7 +68,7 @@ if (isset($_POST["cari"])) {
     <br> <br>
     <table border="1" cellpadding="10" cellspacing="0">
         <tr>
-            <th>No.</th>
+            <th>Nomor.</th>
             <th>Actions</th>
             <th>Name</th>
             <th>Class</th>
