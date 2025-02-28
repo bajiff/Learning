@@ -4,7 +4,7 @@ if (!isset($_SESSION["login"])) {
     header("Location: login.php");
     exit;
 }
-require("functions.php");
+require "functions.php";
 $db_cs = query("SELECT * FROM cahaya_surga ORDER BY id DESC");
 
 if (isset($_POST["cari"])) {
