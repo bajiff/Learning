@@ -1,0 +1,40 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.textCenter {
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    color: green;
+    justify-content: center;
+    background-color: green;
+    padding: 50px;
+    margin: 50px;
+}
+
+.formUl {
+    padding: 50px 50px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.formLabel {
+    font-size: 20px;
+}
+
+.loading {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 223px;
+    z-index: -1;
+    display: none;
+}
