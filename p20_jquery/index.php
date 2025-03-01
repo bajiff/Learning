@@ -34,7 +34,7 @@ if (isset($_POST["cari"])) {
         <label for="keyword">Search</label>
         <input type="text" name="keyword" id="keyword" size="25" placeholder="Masukan Keyword" autocomplete="off" autofocus>
         <button type="submit" name="cari" id="searchBtn">Cari</button>
-        <img src="assets/loading1.gif" alt="loading" class="loading">
+        <img src="assets/gif/loading1.gif" alt="loading" class="loading">
         <br><br>
     </form>
     <section id="container">
