@@ -33,7 +33,7 @@
 .loading {
     width: 100px;
     position: absolute;
-    top: 160px;
+    top: 120px;
     left: 223px;
     z-index: -1;
     display: none;
