@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP OOP</title>
-</head>
-<body>
-    <h1>Belajar PHP OOP</h1>
-</body>
-</html>
+<?php
+class Cobain {
+
+}
+
+$sepatu = new Cobain();
+$sendal = new Cobain();
+var_dump($sepatu);
+var_dump($sendal);
