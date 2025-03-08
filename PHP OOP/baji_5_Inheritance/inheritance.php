@@ -16,7 +16,12 @@ class Products {
         return "$this->ukuran, $this->merk";
     }
 }
-
+class CetakInfoProduk{
+    public function cetak(Products $product){
+        $str = "{$product->getLabel()}, {$product->warna},{$product->harga}, {$product->stok}, {$product->bahan} ";
+        return $str;
+    }
+}
 
 $sendal = new Products("41","Kuning",77000,100,"Stainless","Basendals");
 
@@ -25,7 +30,8 @@ $sepatu = new Products("42","Merah",40000,120,"Kayu","Toyobo");
 
 $baju = new Products("L", "Blue Navy", 54000,10,"Cotton", "Tugaina");
 
-echo "Sendal: " . $sendal->getLabel();
+echo "Sendal: " . $sepatu->getLabel();
 echo "<br>";
-echo "Sepatu: " . $sepatu->getLabel();
-echo "<br>";
+
+$productSendal = new CetakInfoProduk();
+echo $productSendal->cetak($baju);
