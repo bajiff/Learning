@@ -1,0 +1,11 @@
+/* Responsive design */
+@media (max-width: 768px) {
+    .landing-page {
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
