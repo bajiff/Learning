@@ -95,7 +95,6 @@ abstract class Produk
     abstract public function getInfo();
 }
 
-
 class Sendal extends Produk implements InfoProduk
 {
     public $ketebalanSendal;
